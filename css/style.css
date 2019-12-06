@@ -164,6 +164,12 @@ p {
   margin-bottom: 25px;
 }
 
+.subtitle {
+  font-size:2em;
+  font-weight: bold;
+  color:white;
+}
+
 .centered {
   text-align: center;
 }
@@ -180,6 +186,19 @@ strong {
 em {
   font-weight: 300;
 }
+
+.date {
+  float: left;
+  border: 2px solid #2f2f2f;
+  margin-right: 15px;
+  padding: 2px;
+  margin-top: 10px;
+  line-height: 90%;
+  width: 60px;
+  height: 73px;
+  text-align: center;
+}
+
 
 pre {
   background: #ebebeb;
@@ -350,6 +369,15 @@ a:before, a:after {
   padding-top: 25px;
 }
 
+.section-grey {
+  background: #f5f5f5;
+  margin-top: 0px;
+  padding-top: 40px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+
 /* Section Dividers */
 
 .section-divider {
@@ -497,6 +525,11 @@ a:before, a:after {
   font-weight: 700;
   text-align: left;
   letter-spacing: 2px;
+}
+
+.hr-medium {
+  margin-left:25vw;
+  width:50vw;
 }
 
 .grid figcaption a {
