@@ -936,3 +936,8 @@ a:before, a:after {
   height: 245px;
   object-fit: cover;
 }
+
+.logo {
+  width:85px;
+  margin:10px;
+}
