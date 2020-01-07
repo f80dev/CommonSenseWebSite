@@ -78,7 +78,7 @@
     <li data-target="#exemple-carrousel" data-slide-to="3"></li>
   </ol>
 
-
+  <!--TODO centrer les photos-->
   <div class="carousel-inner carousel-header">
 
     <div class="item active item-header carousel-header">
@@ -126,8 +126,6 @@
     <br>
     <h1 class="centered text-uppercase">Offres</h1>
     <hr>
-
-
     <h2 class="text-center"></h2>
     <br><br>
   </div>
@@ -151,7 +149,7 @@
             <li>Co-construction de votre plan d’actions RSE</li>
           </ul>
           <p>          </p>
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -179,7 +177,7 @@
           </ul>
           <br>
 
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -207,7 +205,7 @@
             <li>Co-construction d'un plan de communication RSE ciblant vos parties prenantes externes (candidats, partenaires d'affaires, prospects, medias, ONG, société civile...)</li>
             </ul>
               <br>
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -234,7 +232,7 @@
             <li>Co-construction et animation de formations RSE thématiques</li>
           </ul>
           <br>
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -265,7 +263,7 @@
             <li>La Fresque du Climat (à venir)</li>
           </ul>
           <br>
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -291,7 +289,7 @@
           <p>Vous avez une problématique RSE bien spécifique ?
             <br>Contactez-moi et créons ensemble la solution d’accompagnement qui vous conviendra le mieux.
           </p>
-          <p><b><a href="#">Voir Références</a></b></p>
+          <p><b><a href="#references">Voir Références</a></b></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -315,9 +313,17 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/structurer5.jpg" alt="">
-          <figcaption>
-            <h5>Structurer votre démarche RSE</h5>
-            <a data-toggle="modal" href="#myModal_1" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;">
+            <table>
+              <tr style="width:100%;">
+                <td>
+                  <span class="legende-offre">Structurer votre démarche RSE</span>
+                </td>
+                <td style="text-align: right;width:110px;">
+                  <a data-toggle="modal" href="#myModal_1" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -333,9 +339,15 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/dialoguepp.jpg" alt="">
-          <figcaption>
-            <h5>Structurer le dialogue avec vos parties prenantes</h5>
-            <a data-toggle="modal" href="#myModal_2" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;line-height: 90%;">
+            <table>
+              <tr style="width:100%;">
+                <td><span class="legende-offre">Structurer le dialogue avec vos parties prenantes</span></td>
+                <td style="text-align: right;width:120px;">
+                  <a data-toggle="modal" href="#myModal_2" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -350,9 +362,19 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/valorisationcom.jpg" alt="">
-          <figcaption>
-            <h5>Structurer et valoriser votre communication sur votre démarche RSE</h5>
-            <a data-toggle="modal" href="#myModal_3" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;line-height: 90%;">
+            <table>
+              <tr style="width:100%;">
+                <td>
+                  <!--TODO modifier la phrase pour se mettre sur une ligne-->
+                  <span class="legende-offre">Structurer et valoriser la communication sur votre démarche RSE</span>
+                </td>
+                <td style="text-align: right;width:120px;">
+                  <a data-toggle="modal" href="#myModal_3" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -370,9 +392,21 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/formation.jpg" alt="">
-          <figcaption>
-            <h5>Animer une formation</h5>
-            <a data-toggle="modal" href="#myModal_4" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;line-height: 90%;">
+            <table>
+              <tr style="width:100%;">
+                <td>
+                  <span class="legende-offre">Animer une formation</span>
+                </td>
+                <td style="text-align: right;width:120px;">
+                  <a data-toggle="modal" href="#myModal_4" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+
+
+
+
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -387,9 +421,18 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/intelligenceco3.jpg" alt="">
-          <figcaption>
-            <h5>Animer et mobiliser à travers la facilitation et l’intelligence collective</h5>
-            <a data-toggle="modal" href="#myModal_5" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;line-height: 90%;">
+            <table>
+              <tr style="width:100%;">
+                <td>
+                  <span class="legende-offre">Animer et mobiliser à travers la facilitation et l’intelligence collective</span>
+                </td>
+                <td style="text-align: right;width:120px;">
+                  <a data-toggle="modal" href="#myModal_5" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -404,9 +447,19 @@
       <div class="grid mask">
         <figure>
           <img class="img-responsive" src="img/surmesure.jpg" alt="">
-          <figcaption>
-            <h5>Autres solutions d’accompagnement sur mesure</h5>
-            <a data-toggle="modal" href="#myModal_6" class="btn btn-primary btn-lg">En savoir plus</a>
+          <figcaption style="padding: 10px;line-height: 90%;">
+
+            <table>
+              <tr style="width:100%;">
+                <td>
+                  <span class="legende-offre">Autres solutions d’accompagnement sur mesure</span>
+                </td>
+                <td style="text-align: right;width:110px;">
+                  <a data-toggle="modal" href="#myModal_6" class="btn btn-primary btn-lg">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+
           </figcaption>
           <!-- /figcaption -->
         </figure>
@@ -639,12 +692,13 @@
 <div id="greywrap">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 centered">
+      <div class="col-lg-6 centered">
         <img class="img-responsive"
              src="img/references.jpg"
-             style="width:400px;" align="">
+             style="width:400px;display: inline-block;" align="">
+        <br><br>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <h2>Références</h2>
         <p>
           Fédérations professionnelles, éco-organisme,
@@ -660,7 +714,8 @@
 
         <p>
           <a class="btn btn-success" style="background-color: #5e5e5e;border: none">
-            Découvrez également mes expertises sectorielles
+            Découvrez également<br>
+            mes expertises sectorielles
           </a>
         </p>
 
