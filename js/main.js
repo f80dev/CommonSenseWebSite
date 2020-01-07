@@ -18,3 +18,22 @@ jQuery(document).ready(function( $ ) {
     $(".navbar-collapse.collapse").removeClass('in');
   });
 });
+
+var last_option=null;
+function show_more(option) {
+    if(option!=last_option){
+        var elt=document.getElementsByName("more")[option-1];
+        elt.style="height:400px;opacity: 1.0;";
+        elt.src="./subpages/more_"+["convictions","parcours","ecosysteme"][option-1]+".html";
+        last_option=option;
+    } else {
+        option=2;
+        last_option=0;
+    }
+
+    for(var i=0;i<1;i++){
+        if(i!=option-1)
+            document.getElementsByName("more")[i].style="height:0px;opacity:0.0;"
+    }
+}
+
