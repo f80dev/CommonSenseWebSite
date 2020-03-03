@@ -929,6 +929,12 @@ a:before, a:after {
   border:none;
 }
 
+.btn-ensavoirplus {
+  font-weight: lighter !important;
+  padding:6px !important;
+  display:inline-block;
+}
+
 .img-post {
   height: 245px;
   object-fit: cover;
