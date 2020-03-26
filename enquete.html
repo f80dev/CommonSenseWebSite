@@ -14,10 +14,21 @@
         gtag('config', 'UA-159558053-1');
     </script>
 
+    <script>
+        function getParams() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+    </script>
+
 </head>
 <body>
 <script>
-    location.href="https://docs.google.com/forms/d/e/1FAIpQLScJBn0fWnVgbM0kOA-LGC0rzEkfqqdKHY80rZwGrJS4jJRP4w/viewform";
+    var id=getParams()["id"]
+    location.href="https://docs.google.com/forms/d/e/1FAIpQLScJBn0fWnVgbM0kOA-LGC0rzEkfqqdKHY80rZwGrJS4jJRP4w/viewform?id="+id;
 </script>
 </body>
 </html>
